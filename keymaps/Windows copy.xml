@@ -1,0 +1,20 @@
+<keymap version="1" name="Windows copy" parent="$default">
+  <action id="CompareTwoFiles" />
+  <action id="Diff.ShowDiff" />
+  <action id="Diff.ShowSettingsPopup" />
+  <action id="EditorDuplicate" />
+  <action id="FileChooser.GotoDesktop" />
+  <action id="RunDashboard.CopyConfiguration" />
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="alt j" />
+    <keyboard-shortcut first-keystroke="alt j" second-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="SendEOF" />
+  <action id="Uml.ShowDiff" />
+  <action id="UnselectPreviousOccurrence">
+    <keyboard-shortcut first-keystroke="shift alt j" />
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
+  </action>
+  <action id="XDebugger.CopyWatch" />
+</keymap>
